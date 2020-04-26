@@ -5,3 +5,4 @@ variables:
   DOCKERFILE_URL: 'https://github.com/git-developer/solarview-base/raw/develop/Dockerfile'
   BUILD_ARGS: 'APP_NAME=d0-fb'
   IMAGE_NAME: 'ckware/sv-d0'
+  IMAGE_TITLE: 'SolarView d0-Proxy'
