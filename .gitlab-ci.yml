@@ -2,6 +2,7 @@ include:
   remote: 'https://github.com/git-developer/solarview-base/raw/v1.4.0/.gitlab-ci.yml'
 
 variables:
+  IMAGE_NAME: 'ckware/solarview-d0-alpine'
   DOCKERFILE_URL: 'https://github.com/git-developer/solarview-base/raw/v1.4.0/Dockerfile'
   BUILD_ARGS: 'APP_NAME=d0-fb'
   IMAGE_TITLE: 'SolarView d0-Proxy'
