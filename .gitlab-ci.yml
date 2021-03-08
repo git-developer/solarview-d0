@@ -3,6 +3,6 @@ include:
 
 variables:
   DOCKERFILE_URL: 'https://github.com/git-developer/solarview-base/raw/v1.6.0/Dockerfile'
-  BUILD_ARGS: 'APP_NAME=d0-fb RUNTIME_BASE_IMAGE=debian:testing-slim'
+  BUILD_ARGS: 'APP_NAME=d0-fb'
   IMAGE_TITLE: 'SolarView d0-Proxy'
   UPDATE_CHECK_URLS: 'http://www.solarview.info/downloads/d0-fb.zip'
